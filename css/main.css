@@ -227,18 +227,21 @@ html{
 .boxforsliders{
 	grid-template-columns: 1fr;
 }
+.maincontent{
+	padding-top: 80px;
+	padding-left: 15px;
+}
 .header{
 	margin-top: -80px;
 }
 .picture{
 	margin-top: 80px;
-	height: 460px;
-	margin-bottom: 50px;
+	height: 360px;
+	margin-bottom: 0px;
 }
 .bigword{
-	color: #e8e8e8;
-	font-size: 45px;
-	text-shadow: 1px 4px 7px black;
+	font-size: 30px;
+	text-shadow: 1px 4px 7px silver;
 }
 .contentfooter{
 	grid-template-columns: 2fr;
@@ -254,6 +257,9 @@ html{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.headerslider h1{
+	font-size: 20px;
+}
 }
 @media (min-width: 560px) {
 .maincontent{
@@ -262,7 +268,9 @@ html{
 }
 .picture{
 	margin-bottom: 0;
+	height: 560px;
 }
+
 .bigword{
 	font-size: 40px;
 	color: #192534;
@@ -278,6 +286,9 @@ html{
 .boxforsliders div:hover{
 	margin-top: -20px;
 	margin-bottom: -20px;
+}
+.headerslider h1{
+	font-size: 40px;
 }
 }
 @media (min-width: 680px) {
